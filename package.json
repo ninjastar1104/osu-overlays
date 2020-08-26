@@ -9,6 +9,7 @@
   "author": "ninjastar1104",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^12.3.1"
+    "discord.js": "^12.3.1",
+    "express": "^4.17.1"
   }
 }

@@ -84,3 +84,7 @@ client.on('message', msg => {
 })
 
 client.login(process.env.TOKEN);
+
+const app = require('express')();
+app.get('/', (req, res) => res.send("stay up"));
+app.listen(3000, () => console.log("listening on port 3000"));
